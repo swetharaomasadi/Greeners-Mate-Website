@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Greeners Mate</title>
+  <link rel="icon" href="public/favicon.ico" />
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      margin: 0;
+      padding: 0;
+      background-color: #f5fff5;
+      color: #333;
+    }
+    header {
+      background-color: #4CAF50;
+      color: white;
+      padding: 20px 20px 10px;
+      text-align: center;
+    }
+    .app-icon {
+      width: 100px;
+      height: 100px;
+      border-radius: 16px;
+      margin-bottom: 6px;
+    }
+    .container {
+      padding: 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    .team-grid {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: center;
+    }
+    .member {
+      flex: 1 1 250px;
+      max-width: 300px;
+      border: 1px solid #ccc;
+      border-radius: 12px;
+      padding: 16px;
+      background: #fff;
+      box-sizing: border-box;
+    }
+    .screenshots {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+      gap: 6px;
+      justify-items: center;
+      margin-bottom: 30px;
+    }
+    .screenshots img {
+      width: 100%;
+      max-width: 140px;
+      height: auto;
+      border-radius: 8px;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    }
+    @media (min-width: 768px) {
+      .screenshots {
+        grid-template-columns: repeat(4, 1fr);
+      }
+    }
+    .office-photo {
+      text-align: center;
+      margin: 20px 0;
+    }
+    .office-photo img {
+      max-width: 100%;
+      border-radius: 8px;
+      margin-bottom: 10px;
+    }
+    footer {
+      background-color: #4CAF50;
+      color: white;
+      text-align: center;
+      padding: 10px;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="public/icon.png" alt="App Icon" class="app-icon">
+    <h1>🌱 Greeners Mate</h1>
+    <p>Your Smart Produce Retail Partner</p>
+  </header>
+
+  <div class="container">
+    <section id="about">
+      <h2>About Greeners Mate</h2>
+      <p>
+        Greeners Mate is a mobile application designed to help farmers, vendors, and partners in Andhra & Telangana
+        track profits, expenditures, crop-wise earnings, and dues. Built with voice assistance and
+        Telugu language support, it empowers rural communities with digital tools for easy recordkeeping.
+      </p>
+    </section>
+
+    <section id="agenda">
+      <h2>Our Mission</h2>
+      <p>
+        To digitally empower large-scale farmers of Andhra & Telangana by simplifying their financial and crop
+        management through a user-friendly mobile application.
+      </p>
+      <ul>
+        <li>Track profit, expenditures, and dues partner-wise</li>
+        <li>Input data through speech (supports Telugu)</li>
+        <li>Analyze historical crop performance</li>
+        <li>Enable farmers to shift from paper to mobile</li>
+      </ul>
+    </section>
+
+    <section id="screenshots">
+      <h2>App Screenshots</h2>
+      <div class="screenshots">
+        <img src="public/s1.jpg" alt="App Screenshot 1">
+        <img src="public/s2.jpg" alt="App Screenshot 2">
+        <img src="public/s3.jpg" alt="App Screenshot 3">
+        <img src="public/s4.jpg" alt="App Screenshot 4">
+        <img src="public/s5.jpg" alt="App Screenshot 5">
+        <img src="public/s6.jpg" alt="App Screenshot 6">
+        <img src="public/s7.jpg" alt="App Screenshot 7">
+        <img src="public/s8.jpg" alt="App Screenshot 8">
+      </div>
+    </section>
+
+    <section id="team">
+      <h2>Meet the Team</h2>
+      <div class="office-photo">
+        <img src="public/gp.jpg" alt="Team Photo">
+      </div>
+      <p>
+        Greeners Mate is founded and managed by <strong>Masadi Swetha</strong> as a sole proprietorship. 
+        The app is built in collaboration with a dedicated student team from Andhra & Telangana,
+        under the mentorship of senior faculty.
+      </p>
+      <div class="team-grid">
+        <div class="member">
+          <h3>Dr. Dadi Ramesh</h3>
+          <p><strong>Team Mentor</strong><br>Professor, Dept. of CSE (AI & ML)</p>
+        </div>
+        <div class="member">
+          <h3>Masadi Swetha</h3>
+          <p><strong>Founder & Lead Developer</strong><br>B.Tech CSE (AI & ML), 2022–26</p>
+        </div>
+        <div class="member">
+          <h3>Battula Hari Krishna</h3>
+          <p><strong>Co-Developer</strong><br>B.Tech CSE (AI & ML), 2022–26</p>
+        </div>
+        <div class="member">
+          <h3>Gundelli Abhi Chandhan</h3>
+          <p><strong>Voice Assistant Developer</strong><br>B.Tech CSE (AI & ML), 2022–26</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <p><strong>Email:</strong> swetharaomasadi@gmail.com</p>
+    </section>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 Greeners Mate</p>
+  </footer>
+</body>
+</html>
